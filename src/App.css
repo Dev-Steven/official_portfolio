@@ -1,22 +1,134 @@
-.App {
+
+.navbar-brand {
+  color: #ffa801;
+}
+
+h1 {
+  color: #ffa801;
+}
+
+span {
+  color: #ffa801;
+}
+
+.logo {
+  font-size: 60px;
+}
+
+a {
+  color: #ffa801;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #ffa801;
+  text-decoration: none !important;
+}
+
+.homeContainer {
+  display: inline-block;
+  min-height: 650px;
+}
+
+.imagePic {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  height: 650px;
+  margin: 20px;
+}
+
+.myPic {
+  width: inherit;
+  height: inherit;
+  border-radius: 10px;
+
+}
+
+.intro {
+  width: 550px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.resume_div {
+  /* text-align: center; */
+}
+
+.divResume {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 25px;
+}
+
+.resume {
+  color: #ffa801;
+  border: 2px solid #ffa801;
+  width: 200px;
+  height: 50px;
+  margin: 25px;
+  padding: 10px;
+  /* display: block; */
+  justify-content: center;
+}
+
+.resumeContainer {
+  min-height: 650px;
+
+}
+
+.container_resume {
+  width: 100%;
+  height: inherit;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.preview_resume {
+  width: 90%;
+  height: 550px;
+  display: inline-block; 
+  text-align: vertical;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.fa-linkedin-square {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.fa-github {
+  margin: 10px;
+
+  font-size: 50px;
+}
+
+.fa-envelope {
+  margin: 10px;
+  font-size: 50px;
+}
+
+.socials {
+  text-align: center;
+  display: block;
+  margin-top: 55px;
+}
+
+.homeInfo {
+  display: block;
+}
+
+.links {
+  display: block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.linkers {
+  margin-top: 120px;
+}
+
+.footer {
+  background-color: #f1f2f6;
+  padding: 10px;
+  text-align: center;
 }
