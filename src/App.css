@@ -20,6 +20,10 @@ span {
   color: #ffa801;
 }
 
+p {
+  color: #747d8c;
+}
+
 .logo {
   font-size: 60px;
 }
@@ -41,6 +45,7 @@ a:hover {
 .homeContainer {
   display: inline-block;
   min-height: 650px;
+  margin: 15px;
 }
 
 .imagePic {
@@ -151,4 +156,17 @@ a:hover {
   background-color: #f1f2f6;
   padding: 10px;
   text-align: center;
+}
+
+.stuff {
+  border-radius: 5px;
+  box-shadow: 5px 10px 18px #888888;
+  padding: 5px;
+  margin: 35px;
+  border: 3px solid #ffa801;
+}
+
+.stuff h4 {
+  color: #747d8c;
+  font-weight: 600;
 }
