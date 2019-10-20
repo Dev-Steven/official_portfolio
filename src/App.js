@@ -17,10 +17,9 @@ export default class App extends Component {
         <Navbar></Navbar>
         {/* Route orders matter  */}
         <Switch>
-          <Route path="/contact" component={Contact}/>
           <Route path="/resume" component={Resume}/>
           <Route path="/projects" component={Projects}/>
-          <Route path="/aboutme" component={AboutMe} />
+          <Route path="/about" component={AboutMe} />
           <Route path="/" component={HomePage} />
         </Switch>
         <Footer></Footer>

@@ -28,8 +28,11 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
     <title>Steven Chung</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
@@ -44,4 +47,9 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script> 
+    $(document).ready(function(){
+        $("#title").slideDown("slow");
+    });
+    </script>
 </html>

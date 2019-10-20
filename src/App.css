@@ -1,4 +1,13 @@
 
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+ }
+
 .navbar-brand {
   color: #ffa801;
 }
@@ -13,6 +22,10 @@ span {
 
 .logo {
   font-size: 60px;
+}
+
+#title {
+  display: none;
 }
 
 a {
@@ -51,8 +64,8 @@ a:hover {
   display: inline-block;
 }
 
-.resume_div {
-  /* text-align: center; */
+.elevatorPitch {
+  color: #747d8c;
 }
 
 .divResume {
@@ -92,19 +105,19 @@ a:hover {
 }
 
 .fa-linkedin-square {
-  margin: 10px;
-  font-size: 50px;
+  margin: 5px;
+  font-size: 20px;
 }
 
 .fa-github {
-  margin: 10px;
+  margin: 5px;
 
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .fa-envelope {
-  margin: 10px;
-  font-size: 50px;
+  margin: 5px;
+  font-size: 20px;
 }
 
 .socials {
@@ -124,7 +137,14 @@ a:hover {
 }
 
 .linkers {
-  margin-top: 120px;
+  display: inline-block;
+  /* margin-top: 120px; */
+  color: #747d8c;
+}
+
+.copyRight {
+  color: #747d8c;
+  
 }
 
 .footer {
