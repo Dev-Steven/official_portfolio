@@ -33,7 +33,7 @@ export default class HomePage extends Component {
 
                                 <hr></hr>
                                 <p class="elevatorPitch font-weight-normal">
-                                    Hello, my name is Steven Chung. I am currently a senior with a major in Computer Science. 
+                                    Hey, my name is Steven Chung. I am currently a senior with a major in Computer Science. 
                                     My goal is to become a Full-Stack Developer when I graduate in the Spring of 2020.  
                                     In addition to my computer science studies, I have completed an intense three month coding bootcamp program that provided hands-on experience
                                     in three different stacks. I have a passion for developing and building things and I enjoy the process of working 
