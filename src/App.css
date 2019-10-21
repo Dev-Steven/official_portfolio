@@ -9,51 +9,55 @@ body {
  }
 
 .navbar-brand {
-  color: #ffa801;
+  color: #7da2a9;
 }
 
 h1 {
-  color: #ffa801;
+  color: #01345b;
+  font-weight: 800px;
+
 }
 
 span {
-  color: #ffa801;
+  color: #01345b;
 }
 
 p {
-  color: #747d8c;
+  color: #3d3d3d;
 }
 
-.logo {
-  font-size: 60px;
-}
-
-#title {
-  display: none;
+.Logo {
+  font-size: 25px;
+  color:#f1f2f6;
 }
 
 a {
-  color: #ffa801;
+  color: #01345b;
   text-decoration: none !important;
+  
 }
 
 a:hover {
-  color: #ffa801;
+  color: #01345b;
   text-decoration: none !important;
 }
 
 .homeContainer {
-  display: inline-block;
+  /* display: inline-block; */
   min-height: 650px;
   margin: 15px;
+  /* box-shadow: 5px 10px 18px #888888; */
+
 }
 
 .imagePic {
-  display: inline-block;
+  /* display: inline-block;
   vertical-align: top;
   width: 500px;
   height: 650px;
-  margin: 20px;
+  margin: 20px; */
+  /* border: 1px solid black; */
+
 }
 
 .myPic {
@@ -64,13 +68,14 @@ a:hover {
 }
 
 .intro {
-  width: 550px;
+  /* width: 550px;
   margin: 20px;
-  display: inline-block;
+  display: inline-block; */
+  /* border: 1px solid black; */
 }
 
 .elevatorPitch {
-  color: #747d8c;
+  color: #3d3d3d;
 }
 
 .divResume {
@@ -78,11 +83,12 @@ a:hover {
   text-align: center;
   justify-content: center;
   margin: 25px;
+
 }
 
 .resume {
-  color: #ffa801;
-  border: 2px solid #ffa801;
+  color: #01345b;
+  border: 2px solid #01345b;
   width: 200px;
   height: 50px;
   margin: 25px;
@@ -98,13 +104,13 @@ a:hover {
 
 .container_resume {
   width: 100%;
-  height: inherit;
+  height: 1000px;
   text-align: center;
 }
 
 .preview_resume {
   width: 90%;
-  height: 550px;
+  height: 1000px;
   display: inline-block; 
   text-align: vertical;
 }
@@ -120,7 +126,7 @@ a:hover {
   font-size: 20px;
 }
 
-.fa-envelope {
+.fa-instagram {
   margin: 5px;
   font-size: 20px;
 }
@@ -142,7 +148,7 @@ a:hover {
 }
 
 .linkers {
-  display: inline-block;
+  /* display: inline-block; */
   /* margin-top: 120px; */
   color: #747d8c;
 }
@@ -163,10 +169,10 @@ a:hover {
   box-shadow: 5px 10px 18px #888888;
   padding: 5px;
   margin: 35px;
-  border: 3px solid #ffa801;
+  border: 2px solid #01345b;
 }
 
 .stuff h4 {
-  color: #747d8c;
+  color: #01345b;
   font-weight: 600;
 }

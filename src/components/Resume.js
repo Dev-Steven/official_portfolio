@@ -6,7 +6,7 @@ export default class Resume extends Component {
             <div class="resumeContainer">
                 <h1>Take a Look at My Resume</h1>
                 <div class="container_resume">
-                    <embed class="preview_resume" src="Chung_Steven_Resume_2019.pdf"></embed>
+                    <object class="preview_resume" data="Chung_Steven_Resume_2019.pdf"></object>
                 </div>
             </div>
         );
