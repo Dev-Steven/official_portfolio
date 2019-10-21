@@ -50,6 +50,7 @@ export default class HomePage extends Component {
                         </div>
                     </div>
                 {/* </div> */}
+                {/* http://www.stevendanielchung.com/ */}
             </div>
         );
     }
