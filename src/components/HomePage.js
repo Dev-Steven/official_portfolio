@@ -19,8 +19,8 @@ export default class HomePage extends Component {
             <div class="container">
                 {/* <div class="row"> */}
                     <div class="homeContainer row align-items-center shadow p-3 mb-5 bg-white rounded">
-                        <div class="imagePic col-5">
-                            <img class="myPic" src="myPic.jpg" alt="steven"></img>
+                        <div class="imagePic col-5 rounded float-left">
+                            <img class="myPic " src="myPic2.jpg" alt="steven"></img>
                         </div>
                         <div class="intro col-7">
                             <div class="homeInfo">
@@ -32,7 +32,7 @@ export default class HomePage extends Component {
                                 </LightSpeedIn>
 
                                 <hr></hr>
-                                <p class="elevatorPitch">
+                                <p class="elevatorPitch font-weight-normal">
                                     Hello, my name is Steven Chung. I am currently a senior with a major in Computer Science. 
                                     My goal is to become a Full-Stack Developer when I graduate in the Spring of 2020.  
                                     In addition to my computer science studies, I have completed an intense three month coding bootcamp program that provided hands-on experience
@@ -43,7 +43,7 @@ export default class HomePage extends Component {
                             <div class="links row justify-content-center">
                                 <div class="socials">
                                     <div class="divResume">
-                                    <Link class="resume" to="/resume"> <h7>View Resume</h7></Link>
+                                    <Link class="resume" to="/resume"> <h7 class="font-weight-bold">View Resume</h7></Link>
                                     </div> 
                                 </div>
                             </div>

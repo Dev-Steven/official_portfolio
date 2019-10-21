@@ -12,7 +12,7 @@ export default class Footer extends Component {
                 <div class="container">
                     <div class="linkers row ">
                         <div class="col">
-                            <p>
+                            <p class="font-weight-normal">
                                 Email: <span>stevenchung650@gmail.com</span> |
                                 Phone: <span>650-863-5324</span>
                             </p>
