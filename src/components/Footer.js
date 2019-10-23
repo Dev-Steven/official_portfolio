@@ -8,7 +8,7 @@ const Swing = styled.div`animation: 2s ${keyframes`${rubberBand}`} 1`;
 export default class Footer extends Component {
     render() {
         return(
-            <footer class="footer fixed-bottom">
+            <footer class="footer">
                 <div class="container">
                     <div class="linkers row ">
                         <div class="col">
@@ -30,47 +30,6 @@ export default class Footer extends Component {
                     </div>
                 </div>
             </footer>
-
-
-// {/* <footer class="page-footer font-small cyan darken-3">
-
-
-//   <div class="container">
-
-
-//     <div class="row">
-
-        
-
-
-//       <div class="col">
-//         {/* <div class="mb-1 flex-center"> */}
-
-
-
-//             <a  href="https://www.linkedin.com/in/dev-steven-chung/" target="_blank" class="fa fa-linkedin-square"></a>
-           
-
-//             <a href="https://github.com/Dev-Steven" target="_blank" class="fa fa-github"></a>
-
-//             <a href="https://github.com/Dev-Steven" target="_blank" class="fa fa-envelope"></a>
-
-//         {/* </div> */}
-//       </div>
-
-
-//     </div>
-
-
-//   </div>
-
-
-
-//   <div class="footer-copyright text-center py-3">© 2019 Copyright: Steven Chung</div>
-
-
-// </footer> */}
-
         );
     }
 }

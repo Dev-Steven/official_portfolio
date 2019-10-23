@@ -13,9 +13,8 @@ export default class App extends Component {
   render(){
 
     return (
-      <div>
+      <div class="body">
         <Navbar></Navbar>
-        {/* Route orders matter  */}
         <Switch>
           <Route path="/resume" component={Resume}/>
           <Route path="/projects" component={Projects}/>

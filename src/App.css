@@ -26,6 +26,12 @@ p {
   color: #3d3d3d;
 }
 
+/* 
+.body {
+  height: 100%;
+  color: aqua;
+} */
+
 .Logo {
   font-size: 25px;
   color:#f1f2f6;
@@ -161,9 +167,8 @@ a:hover {
 
 .footer {
   background-color: #f1f2f6;
-  /* padding: 10px; */
   text-align: center;
-
+  min-height: 75px;
 }
 
 .stuff {
@@ -177,4 +182,23 @@ a:hover {
 .stuff h4 {
   color: #01345b;
   font-weight: 600;
+}
+
+@media only screen and (max-width:500px) {
+  .myPic {
+    /* display: none; */
+    vertical-align: top;
+  }
+
+  .homeContainer {
+    min-height: 450px;
+  }
+
+  .elevatorPitch {
+    display: none;
+  }
+
+  .socials {
+    text-align: center;
+  }
 }
