@@ -42,9 +42,9 @@ export default class HomePage extends Component {
                             </div>
                             <div class="links row justify-content-center">
                                 <div class="socials">
-                                    <div class="divResume">
-                                    <Link class="resume" to="/resume"> <h7 class="font-weight-bold">View Resume</h7></Link>
-                                    </div> 
+                                    {/* <div class="divResume"> */}
+                                    <Link class="btn btn-outline-dark" to="/resume"> <h7 class="font-weight-bold">View Resume</h7></Link>
+                                    {/* </div>  */}
                                 </div>
                             </div>
                         </div>

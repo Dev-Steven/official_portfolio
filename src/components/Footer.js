@@ -12,10 +12,6 @@ export default class Footer extends Component {
                 <div class="container">
                     <div class="linkers row ">
                         <div class="col">
-                            <p class="font-weight-normal">
-                                Email: <span>stevenchung650@gmail.com</span> |
-                                Phone: <span>650-863-5324</span>
-                            </p>
                             <Swing>
                                 <a  href="https://www.linkedin.com/in/dev-steven-chung/" target="_blank" class="fa fa-linkedin-square"></a>
                             
@@ -26,7 +22,11 @@ export default class Footer extends Component {
                         </div>
                     </div>
                     <div class="copyRight">
-                        © 2019 Copyright: Steven Chung
+                        <p class="font-weight-normal">
+                            Email: <span>stevenchung650@gmail.com</span> |
+                            Phone: <span>650-863-5324 </span>
+                            | © 2019 Copyright: Steven Chung
+                        </p>
                     </div>
                 </div>
             </footer>

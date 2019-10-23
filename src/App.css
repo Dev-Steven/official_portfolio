@@ -161,9 +161,9 @@ a:hover {
 
 .footer {
   background-color: #f1f2f6;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
-  margin: 5px;
+
 }
 
 .stuff {
