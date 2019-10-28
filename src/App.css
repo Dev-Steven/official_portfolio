@@ -3,6 +3,11 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
  }
+
+ /* .bodi {
+  height: 1000px;
+
+ } */
  
  h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
@@ -26,12 +31,6 @@ p {
   color: #3d3d3d;
 }
 
-/* 
-.body {
-  height: 100%;
-  color: aqua;
-} */
-
 .Logo {
   font-size: 25px;
   color:#f1f2f6;
@@ -49,36 +48,24 @@ a:hover {
 }
 
 .homeContainer {
-  /* display: inline-block; */
-  min-height: 700px;
+  height: 550px;
+  /* width: 1000px; */
   margin: 15px;
   padding: 5px;
-  /* box-shadow: 5px 10px 18px #888888; */
-
 }
 
-.imagePic {
-  /* display: inline-block;
-  vertical-align: top;
-  width: 500px;
-  height: 650px;
-  margin: 20px; */
-  /* border: 1px solid black; */
+.contain {
+  height: 750px;
+  margin-bottom: 25px;
+}
 
+.contains {
+  height: 600px;
 }
 
 .myPic {
-  width: inherit;
-  height: inherit;
+  width: 325px;
   border-radius: 10px;
-
-}
-
-.intro {
-  /* width: 550px;
-  margin: 20px;
-  display: inline-block; */
-  /* border: 1px solid black; */
 }
 
 .elevatorPitch {
@@ -100,7 +87,6 @@ a:hover {
   height: 50px;
   margin: 25px;
   padding: 10px;
-  /* display: block; */
   justify-content: center;
 }
 
@@ -155,14 +141,11 @@ a:hover {
 }
 
 .linkers {
-  /* display: inline-block; */
-  /* margin-top: 120px; */
   color: #747d8c;
 }
 
 .copyRight {
   color: #747d8c;
-  
 }
 
 .footer {
@@ -177,16 +160,27 @@ a:hover {
   padding: 5px;
   margin: 35px;
   border: 2px solid #01345b;
+  /* height: 400px; */
+  overflow: hidden;
+
 }
 
-.stuff h4 {
+.card {
+  border: 2px solid #01345b;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.card-img {
+  margin: 5px;
+}
+
+.card h4 {
   color: #01345b;
   font-weight: 600;
 }
 
 @media only screen and (max-width:500px) {
   .myPic {
-    /* display: none; */
     vertical-align: top;
   }
 

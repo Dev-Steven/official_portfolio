@@ -8,7 +8,7 @@ const Swing = styled.div`animation: 2s ${keyframes`${rubberBand}`} 1`;
 export default class Footer extends Component {
     render() {
         return(
-            <footer class="footer">
+            <footer class="footer ">
                 <div class="container">
                     <div class="linkers row ">
                         <div class="col">

@@ -13,7 +13,7 @@ export default class App extends Component {
   render(){
 
     return (
-      <div class="body">
+      <div class="bodi">
         <Navbar></Navbar>
         <Switch>
           <Route path="/resume" component={Resume}/>

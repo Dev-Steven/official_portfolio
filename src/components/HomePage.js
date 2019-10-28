@@ -16,7 +16,7 @@ export default class HomePage extends Component {
     render() {
 
         return(
-            <div class="container">
+            <div class="contains">
                 {/* <div class="row"> */}
                     <div class="homeContainer row align-items-center shadow p-3 mb-5 bg-white rounded">
                         <div class="imagePic col-5 rounded float-left">
