@@ -55,7 +55,9 @@ a:hover {
 }
 
 .contain {
-  height: 750px;
+  min-height: 750px;
+  /* min-height: 125vh; */
+  /* height: inherit; */
   margin-bottom: 25px;
 }
 
@@ -179,9 +181,20 @@ a:hover {
   font-weight: 600;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:767px) {
+
+  .imgagePic {
+    overflow: hidden;
+    width: 150px;
+  }
   .myPic {
+    width: 150px;
     vertical-align: top;
+    margin: 5px;
+  }
+
+  .homeInfo {
+    margin: 20px;
   }
 
   .homeContainer {
@@ -195,4 +208,10 @@ a:hover {
   .socials {
     text-align: center;
   }
+
+  .contain {
+    height: 2000px;
+  }
+
+
 }
