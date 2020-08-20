@@ -1,0 +1,22 @@
+@import '../App.scss';
+
+.home-info {
+	min-height: 100%;
+	padding: 10%;
+	.job-title {
+		color: $lightBlue-color;
+	}
+
+	hr {
+		width: 25%;
+	}
+
+	.message {
+		margin: 5%;
+	}
+
+	.btn:hover {
+		color: black;
+		background-color: $flashWhite-color;
+	}
+}

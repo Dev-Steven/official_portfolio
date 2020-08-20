@@ -1,0 +1,34 @@
+@import '../App.scss';
+
+$background-color: #f7f1e3;
+
+.about {
+	min-height: 100%;
+	padding: 10%;
+	background-color: $background-color;
+
+	hr {
+		width: 25%;
+	}
+
+	.container {
+		margin-top: 5%;
+
+		.icon {
+			margin-bottom: 25px;
+		}
+
+		.skill {
+			border: 1px solid black;
+			padding: 5px;
+			margin: 10px;
+			color: $lightBlue-color;
+			font-weight: bold;
+			text-align: center;
+		}
+	}
+
+	.btn:hover {
+		background-color: $background-color;
+	}
+}
