@@ -12,6 +12,10 @@ import './AboutMe.scss';
 
 export default class AboutMe extends Component {
 	render() {
+		// upload resume on google drive and get shareable, view only link for everyone.
+		const RESUME_LINK =
+			'https://drive.google.com/file/d/1sIeh1nEsRxsQcQxfp_-vWivngb5SBGUM/view?usp=sharing';
+
 		return (
 			<div class='about text-center' id='about'>
 				<h1 class='text-center font-weight-bold'>About Me</h1>
@@ -83,7 +87,7 @@ export default class AboutMe extends Component {
 				</div>
 				<a
 					className='btn btn-outline-dark mt-3'
-					href='https://drive.google.com/file/d/1sIeh1nEsRxsQcQxfp_-vWivngb5SBGUM/view?usp=sharing'
+					href={RESUME_LINK}
 					target='_blank'
 					rel='noopener noreferrer'
 				>

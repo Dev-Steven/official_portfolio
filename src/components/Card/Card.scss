@@ -1,0 +1,27 @@
+@import '../HomePage/HomePage.scss';
+
+.card {
+	margin: auto;
+	width: 18rem;
+	transition: top ease 0.5s;
+
+	img {
+		max-height: 194px;
+	}
+
+	.card-body {
+		min-height: 254px;
+
+		.card-text {
+			min-height: 110px;
+		}
+	}
+
+	.card:hover {
+		top: -10px;
+	}
+
+	.btn:hover {
+		@include btn-hover;
+	}
+}

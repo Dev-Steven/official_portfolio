@@ -16,6 +16,7 @@ export default class App extends Component {
 				<HomePage />
 				<AboutMe />
 				<Projects />
+				<Contact />
 				{/* <Footer></Footer> */}
 			</div>
 		);

@@ -6,4 +6,8 @@ $background-color: #f1f2f6;
 	min-height: 100%;
 	padding: 10%;
 	background-color: $background-color;
+
+	.col {
+		padding: 25px;
+	}
 }

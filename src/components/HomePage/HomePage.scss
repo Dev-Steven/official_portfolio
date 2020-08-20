@@ -2,6 +2,11 @@
 
 $background-color: #f1f2f6;
 
+@mixin btn-hover($color: black, $background-color: $background-color) {
+	color: $color;
+	background-color: $background-color;
+}
+
 .home-info {
 	background-color: $background-color;
 	min-height: 100%;
@@ -19,7 +24,6 @@ $background-color: #f1f2f6;
 	}
 
 	.btn:hover {
-		color: black;
-		background-color: $background-color;
+		@include btn-hover;
 	}
 }
