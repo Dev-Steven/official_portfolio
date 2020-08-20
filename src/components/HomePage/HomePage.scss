@@ -1,6 +1,9 @@
 @import '../App.scss';
 
+$background-color: #f1f2f6;
+
 .home-info {
+	background-color: $background-color;
 	min-height: 100%;
 	padding: 10%;
 	.job-title {
@@ -17,6 +20,6 @@
 
 	.btn:hover {
 		color: black;
-		background-color: $flashWhite-color;
+		background-color: $background-color;
 	}
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faCode,
@@ -13,7 +14,7 @@ export default class AboutMe extends Component {
 	render() {
 		return (
 			<div class='about text-center' id='about'>
-				<h1 class='text-center font-weight-bold'>About</h1>
+				<h1 class='text-center font-weight-bold'>About Me</h1>
 				<hr />
 				<div className='container text-center'>
 					<div className='row'>
@@ -80,7 +81,12 @@ export default class AboutMe extends Component {
 						</div>
 					</div>
 				</div>
-				<a className='btn btn-outline-dark mt-3' to=''>
+				<a
+					className='btn btn-outline-dark mt-3'
+					href='https://drive.google.com/file/d/1sIeh1nEsRxsQcQxfp_-vWivngb5SBGUM/view?usp=sharing'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					View my Resume
 				</a>
 			</div>

@@ -1,7 +1,9 @@
 @import '../App.scss';
 
+$background-color: #f1f2f6;
+
 .projects {
 	min-height: 100%;
 	padding: 10%;
-	background-color: $flashWhite-color;
+	background-color: $background-color;
 }
