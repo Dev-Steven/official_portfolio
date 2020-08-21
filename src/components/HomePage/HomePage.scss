@@ -11,19 +11,23 @@ $background-color: #f1f2f6;
 	background-color: $background-color;
 	min-height: 100%;
 	padding: 15%;
-	.job-title {
-		color: $lightBlue-color;
-	}
+	.container {
+		padding: 2.5%;
 
-	hr {
-		width: 25%;
-	}
+		.job-title {
+			color: $lightBlue-color;
+		}
 
-	.message {
-		margin: 5%;
-	}
+		hr {
+			width: 25%;
+		}
 
-	.btn:hover {
-		@include btn-hover;
+		.message {
+			margin: 5%;
+		}
+
+		.btn:hover {
+			@include btn-hover;
+		}
 	}
 }
