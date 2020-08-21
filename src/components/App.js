@@ -5,8 +5,7 @@ import Navbar from './Navbar';
 import HomePage from './HomePage/HomePage';
 import AboutMe from './About/AboutMe';
 import Projects from './Projects/Projects';
-import Contact from './Contact';
-import Footer from './Footer';
+import Contact from './Contact/Contact';
 
 export default class App extends Component {
 	render() {
@@ -17,7 +16,6 @@ export default class App extends Component {
 				<AboutMe />
 				<Projects />
 				<Contact />
-				{/* <Footer></Footer> */}
 			</div>
 		);
 	}

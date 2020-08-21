@@ -13,6 +13,7 @@ export default class Projects extends Component {
 					<h1 className='font-weight-bold text-center mb-2'>
 						My Projects
 					</h1>
+					<hr />
 					<div className='container text-center'>
 						<div className='row text-center'>
 							<div className='col text-center zoom'>
