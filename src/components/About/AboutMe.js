@@ -16,8 +16,8 @@ export default class AboutMe extends Component {
 			'https://drive.google.com/file/d/1sIeh1nEsRxsQcQxfp_-vWivngb5SBGUM/view?usp=sharing';
 
 		return (
-			<div class='about text-center' id='about'>
-				<h1 class='text-center font-weight-bold'>About Me</h1>
+			<div className='about text-center' id='about'>
+				<h1 className='text-center font-weight-bold'>About Me</h1>
 				<hr />
 				<div className='container text-center'>
 					<div className='row'>
