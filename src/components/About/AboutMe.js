@@ -13,7 +13,7 @@ export default class AboutMe extends Component {
 	render() {
 		// upload resume on google drive and get shareable, view only link for everyone.
 		const RESUME_LINK =
-			'https://drive.google.com/file/d/1sIeh1nEsRxsQcQxfp_-vWivngb5SBGUM/view?usp=sharing';
+			'https://drive.google.com/file/d/1n7glWgLH-2Tia-8M7wFk3JkBL_4biiMC/view?usp=sharing';
 
 		return (
 			<div className='about text-center' id='about'>
