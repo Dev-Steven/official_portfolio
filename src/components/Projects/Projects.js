@@ -40,8 +40,8 @@ export default class Projects extends Component {
 									title='Pathfinder'
 									img={pathfindervs}
 									descr='Visually display how certain pathfinding algorithms work.'
-									btn_text='View on Github'
-									link='https://github.com/Dev-Steven/pathfinder-visualizer'
+									btn_text='View Site'
+									link='https://loving-johnson-6296df.netlify.app'
 								/>
 							</div>
 						</div>
