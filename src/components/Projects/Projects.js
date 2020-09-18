@@ -4,6 +4,7 @@ import Card from '../Card/Card';
 // importing pictures from assets
 import weatherly from '../../assets/weatherly.png';
 import ghostcord from '../../assets/ghostcord.png';
+import pathfindervs from '../../assets/pathfindervs.png';
 
 export default class Projects extends Component {
 	render() {
@@ -32,6 +33,15 @@ export default class Projects extends Component {
 									descr='Social media app with features: video call, whiteboarding and messaging. Built with a team of 4 developers'
 									btn_text='View on Github'
 									link='https://github.com/henrymhong/ghostcord'
+								/>
+							</div>
+							<div className='col'>
+								<Card
+									title='Pathfinder'
+									img={pathfindervs}
+									descr='Visually display how certain pathfinding algorithms work.'
+									btn_text='View on Github'
+									link='https://github.com/Dev-Steven/pathfinder-visualizer'
 								/>
 							</div>
 						</div>
