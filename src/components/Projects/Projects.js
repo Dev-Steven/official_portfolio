@@ -39,7 +39,7 @@ export default class Projects extends Component {
 								<Card
 									title='Pathfinder'
 									img={pathfindervs}
-									descr='Visually display how certain pathfinding algorithms work.'
+									descr='Visually display how certain pathfinding algorithms work. (Still in progress)'
 									btn_text='View Site'
 									link='https://loving-johnson-6296df.netlify.app'
 								/>
