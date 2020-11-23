@@ -16,7 +16,7 @@ const Contact = () => {
 			<hr />
 			<p className='text-center pt-5'>
 				I know I can be a great addition to your team and would love to
-				work with you! I also am open to any freelancing oppurtunities,
+				work with you! I also am open to any freelancing opportunities,
 				so if you have an idea let's build it!
 			</p>
 			<p className='text-center pt-5'>
